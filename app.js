@@ -9,7 +9,7 @@ const dbURI = "mongodb+srv://admin:admin123@node-practice.7nm5d5q.mongodb.net/?r
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => {
-        app.listen(3000)
+        app.listen(process.env.PORT || 5000)
     })
     .catch((err) => {
         console.log(err)
