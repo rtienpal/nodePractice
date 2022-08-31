@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon app"
+    "start": "node app"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
